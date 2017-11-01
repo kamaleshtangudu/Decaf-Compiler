@@ -1,0 +1,16 @@
+language: cpp
+
+compiler: 
+    - g++
+
+addons:
+    apt:
+        packages:
+            - bison
+            - flex
+
+sudo: false
+
+script:
+    - make 
+

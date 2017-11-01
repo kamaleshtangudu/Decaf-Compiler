@@ -1,0 +1,26 @@
+<program>
+<field_declarations count =" 1">
+int  a[20] b[20]</field_declarations>
+<method_declarations count =" 2">
+int fibo (int N )
+{
+no of statements = 2
+if(N  <  2)
+{
+no of statements = 1
+return N 
+}
+return fibo(N  -  1) + fibo(N  -  2)
+}
+void main ()
+{
+no of statements = 5
+int  n
+int  a
+scanf(%dn )
+a  = fibo(n )
+printf(%da )
+
+}
+</method_declarations>
+</program>
